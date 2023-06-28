@@ -1,0 +1,127 @@
+
+* {
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+/* HEADER */
+#header-nav {
+    background-color: #999999;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+    color: #55b9bd;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.text-center {
+    font-weight: bold;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+#nav-list {
+    margin-top: 0px;
+}
+#nav-list a {
+    color: #222222;
+    text-align: center;
+}
+#nav-list a:hover {
+    background: #222222;
+}
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+.navbar-nav {
+    margin-bottom: 0px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #222222;
+    background: #999999;
+}
+
+.active {
+    border: 1px solid #FFFFFF;
+    background: #666666
+}
+
+li > a {
+    border: 1px solid #222222;
+    background: #FFFFFF;
+    font-weight: bold;
+}
+  
+/* END HEADER */
+
+/* MAIN BODY */
+.menu-categories {
+    margin: 25px auto 25px;
+}
+
+.menuitem {
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    font-size: 125%;
+    padding: 6px;
+    clear: right;
+    margin: 0px auto 8px;
+    overflow: hidden;
+}
+
+.menuexp {
+    text-align: left;
+    margin: 8px auto 8px;
+    clear: left;
+}
+
+#chicken {
+    background-color: #da92b6
+}
+#beef {
+    background-color: #ad1a2d;
+    color: white;
+}
+#sushi {
+    background-color: #c3c49f
+}
+/** END MAIN BODY **/
+
+
+@media (min-width: 992px) {
+    .row {
+        margin: 10px 15px 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .row {
+        margin: 10px 45px 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .row {
+        margin: 10px 45px 10px;
+    }
+}
