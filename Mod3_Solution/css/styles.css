@@ -17,7 +17,7 @@
 }
 
 .navbar-brand h1 { /* Restaurant name */
-    color: #55b9bd;
+    color: #55B9BD;
     font-size: 1.5em;
     text-transform: uppercase;
     font-weight: bold;
@@ -67,7 +67,7 @@
 
 li > a {
     border: 1px solid #222222;
-    background: #FFFFFF;
+    background: #55B9BD;
     font-weight: bold;
 }
   
