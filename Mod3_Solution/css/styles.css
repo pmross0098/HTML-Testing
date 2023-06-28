@@ -112,11 +112,17 @@ li > a {
     .row {
         margin: 10px 15px 10px;
     }
+    li > a {
+        visibility: hidden;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     .row {
         margin: 10px 45px 10px;
+    }
+    li > a {
+        visibility: hidden;
     }
 }
 
